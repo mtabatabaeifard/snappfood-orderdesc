@@ -20,8 +20,9 @@
       height: 112px;
 
   }
-  p{
+  p{  font-family: 'IRANSans';
       font-size: 18px;
+      direction: rtl;
   }
   h1{
       font-size: 36px;
@@ -57,7 +58,11 @@
 }
 .item-name{
    margin-right: 5px;
+   position: absolute;
+   margin-top: 50px;
 }
 .item-price{
-    margin-right: 320px;
+    position: absolute;
+    margin-right: 420px;
+    margin-top: 50px;
 }
