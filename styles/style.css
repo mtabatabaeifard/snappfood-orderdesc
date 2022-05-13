@@ -1,0 +1,63 @@
+@font-face {
+    src: url(./fonts/IRANSans.ttf);
+    font-family: 'IRANSans';
+}
+/***************************************************************
+ css default reset ...
+ ***************************************************************/
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fafafa;
+    color: #212121;
+  }
+  img{
+      width: 112px;
+      height: 112px;
+
+  }
+  p{
+      font-size: 18px;
+  }
+  h1{
+      font-size: 36px;
+  }
+
+/***************************************************************
+ UTILS ...
+ ***************************************************************/
+
+ .container {
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.texts{
+      font-family:"IRANSans";   
+      direction: rtl;
+      text-align: right;
+    }
+.order{
+    background-color: white;
+    width: 648px;
+    height: auto;
+}
+.restaurant-name{
+    direction: rtl;
+    font-family: 'IRANSans';
+}
+.items{
+    direction: rtl;
+    font-family: 'IRANSans'
+}
+.item-name{
+   margin-right: 5px;
+}
+.item-price{
+    margin-right: 320px;
+}
